@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../../public/background/home-background.png";
+import micaBackground from "../../public/background/micaBackground.webp"
 import RenderModel from "@/components/RenderModel";
 // import Wizard from "@/components/models/Wizard";
 import Navigation from "@/components/navigation";
@@ -15,10 +15,10 @@ export default function Home() {
       <Image
         priority
         sizes="100vw"
-        src={bg}
+        src={micaBackground}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-50"
+        className="-z-50 w-full h-full object-cover object-center opacity-80"
       />
 
       <div className="w-full h-screen">
